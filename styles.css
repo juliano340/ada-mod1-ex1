@@ -52,7 +52,7 @@ body {
     width: 200px; /* Define a largura da div */
     height: 200px; /* Define a altura da div */
     border-radius: 50%; /* Faz a div ficar redonda */
-    background-image: url('img/Perfil.jpg'); /* Define a imagem de fundo */
+    background-image: url('img/Corte.jpg'); /* Define a imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir toda a div */
     background-position: center; /* Centraliza a imagem dentro da div */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
@@ -304,4 +304,49 @@ footer{
     width: 20px;
     height: 20px;
   
+}
+
+.containerRanking {
+ 
+    margin: 100px 400px;
+    
+    
+    
+}
+
+.ranking-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 10000px;
+    margin: 0 auto;
+}
+
+.ranking-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ranking-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ranking-container li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.ranking-container li:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
 }
