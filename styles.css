@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech Mono", monospace, Roboto;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed; /* Fixa a barra de navegação na tela */
+            top: 0; /* Posiciona no topo da página */
+            left: 0; /* Alinha à esquerda */
+            width: 100%; /* Faz a barra ocupar toda a largura da tela */
+            background-color: #333; /* Cor de fundo da barra */
+            padding: 10px 0; /* Espaçamento interno da barra */
+            z-index: 1000; /* Garante que a barra fique sobre outros elementos */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullets do menu */
+    padding: 0; /* Remove padding do ul */
+    margin: 0; /* Remove margin do ul */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    justify-content: center; /* Alinha os itens à esquerda */
+    margin-left: 50px;
+}
+
+.navbar li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #ffffff; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transição suave para cor e fundo */
+}
+
+.navbar a:hover {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #ffffff; /* Cor do texto */
+    background-color: #000;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.circular-div {
+    margin-bottom: 20px;
+    width: 200px; /* Define a largura da div */
+    height: 200px; /* Define a altura da div */
+    border-radius: 50%; /* Faz a div ficar redonda */
+    background-image: url('img/Perfil.jpg'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem dentro da div */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    overflow: hidden; /* Garante que o conteúdo dentro da div fique dentro dos limites arredondados */
+    border: rgb(9, 9, 9) 1px solid;
+    
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* mantem no centro vertical */
+    padding: 20px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+    
+}
+
+.name {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.contact {
+    width: 500px;
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact h2 {
+    color: rgb(88, 88, 88);
+    font-size: 1.0rem;
+    
+}
+
+.profile {
+    margin-top: 30px;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    
+}
+
+.profile h1 {
+    margin-bottom: 10px;
+}
+
+.divisor {
+    
+    height: 2px;
+    background-color: #EDEDED;    
+    margin: 0px 300px;
+}
+
+.section1 {
+    margin: 20px 0px;
+    width: 600px;
+}
+
+section li {
+    margin: 10px 15px;
+}
+
+.section2 {
+    margin: 20px 0px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-left: 100px;
+    
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.bloco_emprego {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.bloco_cargo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: top;
+    margin-top: 25px;
+}
+
+.divIdiomas{
+    margin-top: 110px;
+
+}
+
+.idiomas {
+    width: 70%;
+    margin-top: 50px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.idiomas tr {
+  
+}
+
+.idiomas th {
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.idiomas td {
+    
+    
+    text-align: left;
+    padding: 5px 0px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px
+}
+
+.blocoFormacao {
+    margin-top: 50px;
+}
+
+.row_formacao {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.linguagens {
+
+    margin-top: 50px;
+    background-color: #EDEDED;
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.linguagens i {
+    gap: 20px;
+    margin: 20px;
+    
+}
+
+.cardLinguagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerContato {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    margin-left: 350px;
+
+
+}
+
+.containerContato form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.containerContato form input, textarea  {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 1000px;
+}
+
+.containerContato form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contatoTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+#historico {
+ background-color: #333;
+ color: #fff;
+ max-width: 300px;
+}
+
+.bandeira {
+    width: 20px;
+    height: 20px;
+  
+}
